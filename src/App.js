@@ -20,9 +20,9 @@ function App() {
   const [isConnected, setIsConnected] = useState(false);
   const [showFeedbackPrompt, setShowFeedbackPrompt] = useState(false);
   const [ok, setok] = useState(false);
-  document.title = "Hydro";
   
   const t = translations[language] || translations.en;
+  document.title = t.title;
 
   useEffect(() => {
     const browserLanguage = getBrowserLanguage();
@@ -134,7 +134,7 @@ function App() {
   const renderHome = () => (
     <div className="hydro-container">
       <header className="hydro-header">
-        <h1 className="hydro-title">Hydro</h1>
+        <h1 className="hydro-title">{t.title}</h1>
         {renderNav()}
       </header>
       

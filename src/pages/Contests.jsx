@@ -24,7 +24,7 @@ const Contests = ({ language }) => {
             endTime: '2023-05-01T12:00:00',
             participants: 1250,
             description: '年度最大的编程竞赛，涵盖多种算法题型',
-            organizer: 'Hydro官方'
+            organizer: `${t.title}官方`
           },
           { 
             id: 2, 
@@ -163,7 +163,7 @@ const Contests = ({ language }) => {
     return (
       <div className="hydro-container">
         <header className="hydro-header">
-          <h1 className="hydro-title">Hydro</h1>
+          <h1 className="hydro-title">{t.title}</h1>
           {renderNav()}
         </header>
         <main className="hydro-main">
@@ -179,7 +179,7 @@ const Contests = ({ language }) => {
     return (
       <div className="hydro-container">
         <header className="hydro-header">
-          <h1 className="hydro-title">Hydro</h1>
+          <h1 className="hydro-title">{t.title}</h1>
           {renderNav()}
         </header>
         <main className="hydro-main">
@@ -195,7 +195,7 @@ const Contests = ({ language }) => {
   return (
     <div className="hydro-container">
       <header className="hydro-header">
-        <h1 className="hydro-title">Hydro</h1>
+        <h1 className="hydro-title">{t.title}</h1>
         {renderNav()}
       </header>
       <main className="hydro-main">

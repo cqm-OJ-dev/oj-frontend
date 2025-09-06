@@ -5,7 +5,7 @@ import { translations, getBrowserLanguage } from './include/locales';
 
 const LoadingScreen = ({ showFeedbackPrompt })  => {
   const [loadingText, setLoadingText] = useState('Loading...');
-  const [language, setLanguage] = useState(getBrowserLanguage);
+  const [language, setLanguage] = useState(getBrowserLanguage());
   const t = translations[language] || translations.en;
   useEffect(() => {
     const userLanguage = navigator.language || navigator.userLanguage;
@@ -33,7 +33,7 @@ const LoadingScreen = ({ showFeedbackPrompt })  => {
     <div className="hydro-loading-screen">
       <div className="hydro-loading-content">
         <div className="hydro-logo">
-          <span className="hydro-logo-text">Hydro</span>
+          <span className="hydro-logo-text">{t.title}</span>
           <div className="hydro-logo-subtext">Online Judge</div>
         </div>
         <div className="hydro-loading-bar">

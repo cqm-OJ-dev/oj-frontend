@@ -1,6 +1,6 @@
 export const translations = {
   en: {
-    title: "Hydro",
+    title: "Veyth",
     issues: "Having issues?",
     feedback: "send feedback",
     nav: {
@@ -11,15 +11,15 @@ export const translations = {
       register: "Register"
     },
     welcome: {
-      title: "Welcome to Hydro",
+      title: "Welcome to Veyth",
       subtitle: "A modern online judge system for programming contests and practice"
     },
     problems: {
       recent: "Recent Problems"
     },
-    footer: "Hydro OJ © {year}",
+    footer: "Veyth OJ © {year}",
     auth: {
-      loginTitle: "Login to Hydro",
+      loginTitle: "Login to Veyth",
       registerTitle: "Create an Account",
       email: "Email",
       password: "Password",
@@ -34,7 +34,7 @@ export const translations = {
     }
   },
   zh: {
-    title: "Hydro",
+    title: "Veyth",
     issues: "服务器断线?",
     feedback: "发送反馈",
     nav: {
@@ -45,15 +45,15 @@ export const translations = {
       register: "注册"
     },
     welcome: {
-      title: "欢迎使用 Hydro",
+      title: "欢迎使用 Veyth",
       subtitle: "现代化的编程竞赛与练习在线评测系统"
     },
     problems: {
       recent: "近期题目"
     },
-    footer: "Hydro 在线评测 © {year}",
+    footer: "Veyth 在线评测 © {year}",
     auth: {
-      loginTitle: "登录 Hydro",
+      loginTitle: "登录 Veyth",
       registerTitle: "创建账户",
       email: "电子邮箱",
       password: "密码",

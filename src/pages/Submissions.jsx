@@ -9,7 +9,7 @@ const Submissions = ({ language }) => {
   const [submissions, setSubmissions] = useState([]);
   const [isLoading, setIsLoading] = useState(true);
   const [error, setError] = useState('');
-  const [language1, setLanguage] = useState(getBrowserLanguage);
+  const [language1, setLanguage] = useState(getBrowserLanguage());
   const t = translations[language1] || translations.en;
   document.title = "提交记录";
 
@@ -136,7 +136,7 @@ const Submissions = ({ language }) => {
   return (
     <div className="hydro-container">
       <header className="hydro-header">
-        <h1 className="hydro-title">Hydro</h1>
+        <h1 className="hydro-title">{t.title}</h1>
         {renderNav()}
       </header>
       <main className="hydro-main">

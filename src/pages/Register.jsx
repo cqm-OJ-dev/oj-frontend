@@ -146,7 +146,7 @@ const Register = () => {
     <>
       
       <header className="hydro-header">
-        <h1 className="hydro-title">Hydro</h1>
+        <h1 className="hydro-title">{t.title}</h1>
         {renderNav()}
       </header>
     <div className="auth-container">

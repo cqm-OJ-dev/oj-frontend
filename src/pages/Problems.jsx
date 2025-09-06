@@ -101,7 +101,7 @@ const Problems = ({ language }) => {
     return (
       <div className="hydro-container">
         <header className="hydro-header">
-          <h1 className="hydro-title">Hydro</h1>
+          <h1 className="hydro-title">{t.title}</h1>
           {renderNav()}
         </header>
         <main className="hydro-main">
@@ -115,7 +115,7 @@ const Problems = ({ language }) => {
     return (
       <div className="hydro-container">
         <header className="hydro-header">
-          <h1 className="hydro-title">Hydro</h1>
+          <h1 className="hydro-title">{t.title}</h1>
           {renderNav()}
         </header>
         <main className="hydro-main">
@@ -128,7 +128,7 @@ const Problems = ({ language }) => {
   return (
     <div className="hydro-container">
       <header className="hydro-header">
-        <h1 className="hydro-title">Hydro</h1>
+        <h1 className="hydro-title">{t.title}</h1>
         {renderNav()}
       </header>
       <main className="hydro-main">
